@@ -1,0 +1,9 @@
+.video {
+	background: #f5f2f0;
+}
+video {
+	margin: 3rem auto 0;
+	width: 100%;
+	max-width: 761px;
+	display: block;
+}

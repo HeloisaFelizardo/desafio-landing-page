@@ -1,0 +1,54 @@
+.beneficios {
+	display: flex;
+	flex-direction: column;
+	background-color: #c5e1a5;
+}
+
+.beneficios form {
+	text-align: center;
+	padding: 0 0 3rem;
+}
+.beneficios form h2 {
+	margin-bottom: 3rem;
+}
+
+.beneficios #cadastro {
+	border-radius: 3px;
+	background-color: #dcedc8;
+	color: #172c00;
+	border: none;
+	padding: 15px 60px;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.2s ease-in-out 0s;
+	border: 1px solid #172c00;
+}
+.beneficios #cadastro:hover {
+	color: #f1f8e9;
+	background-color: #33691e;
+	border: 1px solid #172c00;
+}
+.lista-beneficios {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	padding: 4rem 0 0;
+}
+
+.beneficio {
+	text-align: center;
+	font-weight: 600;
+}
+
+.beneficio img {
+	width: 100%;
+	max-width: 366px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	border: 1px solid #33691e;
+}
+
+.beneficio p {
+	margin: 0;
+}

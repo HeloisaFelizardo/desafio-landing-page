@@ -1,0 +1,26 @@
+.ervas-medicinais {
+	background-color: #c5e1a5;
+}
+
+.ervas-medicinais ul {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	padding: 2rem 0 0;
+}
+
+.ervas-medicinais li {
+	text-align: center;
+	font-weight: 600;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+.ervas-medicinais li img {
+	width: 100%;
+	max-width: 300px;
+	max-height: 300px;
+	height: 100%;
+	border-radius: 4px;
+	border: 1px solid #8bc34a;
+	object-fit: cover;
+}
