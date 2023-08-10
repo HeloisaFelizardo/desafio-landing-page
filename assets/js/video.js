@@ -1,5 +1,5 @@
 export function playVideo() {
-	const video = document.getElementById('video');
+	const video = document.getElementById('video-player');
 	let isPlaying = false;
 	let lastPlayTime = 0;
 	// Função para verificar se o vídeo está visível na tela
