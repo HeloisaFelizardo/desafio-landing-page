@@ -60,9 +60,6 @@
 	background: rgba(220, 237, 200, 1);
 }
 @media screen and (max-width: 1025px) {
-	.logo {
-		margin-top: 0.6rem;
-	}
 	.menu {
 		position: absolute;
 		top: 4.5rem;
@@ -81,5 +78,10 @@
 	}
 	.menu ul li {
 		width: 100%;
+	}
+}
+@media screen and (max-width: 1025px) {
+	.logo {
+		margin-top: 1rem;
 	}
 }
