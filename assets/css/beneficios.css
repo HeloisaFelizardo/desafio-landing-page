@@ -57,3 +57,11 @@
 		padding: 0;
 	}
 }
+@media screen and (max-width: 400px) {
+	.lista-beneficios {
+		gap: 0;
+	}
+	.beneficio img {
+		max-width: 5rem;
+	}
+}
