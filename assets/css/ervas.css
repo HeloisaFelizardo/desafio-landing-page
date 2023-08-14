@@ -24,3 +24,10 @@
 	border: 1px solid #8bc34a;
 	object-fit: cover;
 }
+
+@media screen and (max-width: 1025px) {
+	.ervas-medicinais ul {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 1rem;
+	}
+}

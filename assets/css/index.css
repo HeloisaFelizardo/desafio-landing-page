@@ -6,6 +6,7 @@
 @import url('local.css');
 @import url('cadastro.css');
 @import url('footer.css');
+@import url('burguer.css');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap');
 * {
 	-moz-box-sizing: border-box;
@@ -47,7 +48,7 @@ h2 {
 	border-bottom: 1px dotted #172c00;
 	font-size: 2rem;
 	text-align: center;
-	padding: 2rem 0;
+	padding: 2rem;
 	margin: 0;
 }
 ul {
@@ -67,3 +68,15 @@ a {
 		'. . .';
 }
  */
+@media screen and (max-width: 1025px) {
+	.container-section {
+		padding: 0 1rem;
+	}
+	h1 {
+		font-size: 3rem;
+		line-height: 4.5rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+}

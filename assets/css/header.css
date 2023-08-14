@@ -35,21 +35,48 @@
 	display: flex;
 	margin-right: 1rem;
 }
+
 .menu ul {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 }
-.menu ul li {
-	margin: 0rem 1rem;
-}
+
 .menu ul li a {
-	padding-bottom: 1rem;
 	color: #172c00;
 	transition: 0.2s ease-in-out 0s;
+	padding: 1rem;
 	font-weight: 600;
+	display: block;
 }
 .menu ul li a:hover {
 	border-bottom: 5px solid #33691e;
 	color: #33691e;
+	background: rgba(220, 237, 200, 1);
+}
+.menu ul li a.show {
+	border-bottom: 5px solid #33691e;
+	color: #33691e;
+	background: rgba(220, 237, 200, 1);
+}
+@media screen and (max-width: 1025px) {
+	.menu {
+		position: absolute;
+		top: 4.5rem;
+		right: 1rem;
+		background-color: #8bc34a;
+		transition: max-height 0.3s ease-in-out;
+		max-height: 0;
+		overflow: hidden;
+	}
+	.menu.show {
+		display: flex;
+		max-height: 500px;
+	}
+	.menu ul {
+		flex-direction: column;
+	}
+	.menu ul li {
+		width: 100%;
+	}
 }

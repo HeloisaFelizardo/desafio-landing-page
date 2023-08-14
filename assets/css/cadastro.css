@@ -54,3 +54,8 @@
 	background-color: #33691e;
 	border: 1px solid #404040;
 }
+@media screen and (max-width: 1025px) {
+	.cadastro {
+		padding-bottom: 5rem;
+	}
+}
