@@ -64,4 +64,7 @@
 	.beneficio img {
 		max-width: 5rem;
 	}
+	.beneficios #cadastro {
+		padding: 15px 40px;
+	}
 }
