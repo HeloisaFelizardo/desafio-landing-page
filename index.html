@@ -1,158 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/icone.ico" />
-		<link rel="stylesheet" href="assets/css/index.css" />
-		<title>MediFlora</title>
-		<meta name="description" content="Benefícios dos Chás e ervas medicinais." />
-		<meta name="keywords" content="ervas-medicinais, chas-naturais, beneficio-dos-chas" />
-		<meta name="robots" content="index" />
-	</head>
-	<body>
-		<main class="container">
-			<header class="header">
-				<div class="top">
-					<h1 class="logo">
-						<img src="assets/img/logo.svg" alt="MediFlora" />
-					</h1>
-					<nav class="menu">
-						<ul>
-							<li><a href="#home" id="home" class="show">Página Inicial</a></li>
-							<li><a href="#beneficios">Benefícios dos chás</a></li>
-							<li><a href="#ervas">Ervas Medicinais</a></li>
-							<li><a href="#video">Assista o Video</a></li>
-							<li><a href="#local">Localização</a></li>
-						</ul>
-					</nav>
-					<label class="burger" for="burger">
-						<input type="checkbox" id="burger" />
-						<span></span>
-						<span></span>
-						<span></span>
-					</label>
-				</div>
-				<h1 class="titulo">Benefícios dos Chás</h1>
-			</header>
-			<section class="beneficios" id="beneficios">
-				<form action="">
-					<h2>Quer saber mais sobre as propriedades e os benefícios dos chás naturais?</h2>
-					<button type="submit" value="cadastro" id="cadastro">Cadastre-se</button>
-				</form>
-				<div class="container-section">
-					<div class="lista-beneficios">
-						<div class="beneficio">
-							<img src="./assets/img/metabolismo.jpg" alt="" />
-							<p>Estímula o metabolismo</p>
-						</div>
-						<div class="beneficio">
-							<img src="./assets/img/saude-cardiovascular.jpg" alt="" />
-							<p>Promove a saúde cardiovascular</p>
-						</div>
-						<div class="beneficio">
-							<img src="./assets/img/efeito-relaxante.jpg" alt="" />
-							<p>Possuí efeito relaxante</p>
-						</div>
+	<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<link rel="shortcut icon" type="image/x-icon" href="assets/img/icone.ico" />
+			<link rel="stylesheet" href="assets/css/index.css" />
+
+			<!-- Título da Página e Meta Descrição -->
+			<title>MediFlora - Ervas Medicinais: Benefícios dos Chás Naturais e Ervas Medicinais</title>
+			<meta name="description" content="Descubra os benefícios dos chás naturais e ervas medicinais oferecidos pela MediFlora. Cadastre-se para receber informações." />
+
+			<!-- Informações específicas do site -->
+			<meta name="author" content="MediFlora" />
+			<meta name="theme-color" content="#8BC34A" />
+			<meta name="robots" content="index" />
+
+			<!-- Metadados para Redes Sociais -->
+			<meta name="og:title" content="MediFlora - Ervas Medicinais: Benefícios dos Chás Naturais e Ervas Medicinais" />
+			<meta name="og:description" content="Descubra os benefícios dos chás naturais e ervas medicinais oferecidos pela MediFlora. Cadastre-se para receber informações." />
+			<meta name="og:image" content="assets/img/image.jpg" />
+			<meta name="og:url" content="https://heloisafelizardo.github.io/desafio-landing-page" />
+
+			<!-- Palavras-chave específicas para o público-alvo -->
+			<meta name="keywords" content="ervas medicinais, tratamentos naturais, remédios naturais, saúde holística, chás naturais, benefícios dos chás, ervas medicinais MediFlora" />
+		</head>
+		<body>
+			<main class="container">
+				<header class="header">
+					<div class="top">
+						<h1 class="logo">
+							<img src="assets/img/logo.svg" alt="MediFlora - Ervas Medicinais" />
+						</h1>
+						<nav class="menu">
+							<ul>
+								<li><a href="#home" id="home" class="show">Página Inicial</a></li>
+								<li><a href="#beneficios">Benefícios dos chás</a></li>
+								<li><a href="#ervas">Ervas Medicinais</a></li>
+								<li><a href="#video">Assista o Video</a></li>
+								<li><a href="#local">Localização</a></li>
+							</ul>
+						</nav>
+						<label class="burger" for="burger">
+							<input type="checkbox" id="burger" />
+							<span></span>
+							<span></span>
+							<span></span>
+						</label>
 					</div>
-				</div>
-			</section>
-			<section class="video" id="video">
-				<h2>Assim como os chás naturais nos brindam com sabores sutis que nos conectam à natureza, encontrar o prazer de viver está em saborear cada momento com a mesma delicadeza e gratidão.</h2>
-				<div class="container-section">
-					<video controls id="video-player">
-						<source src="./assets/video/chas.mp4" type="video/mp4" />
-						Seu navegador não suporta o elemento de vídeo.
-					</video>
-				</div>
-			</section>
-			<section class="ervas-medicinais" id="ervas">
-				<h2>Ervas Medicinais</h2>
-				<div class="container-section">
-					<ul>
-						<li>
-							<img src="./assets/img/ervas/abacateiro.jpg" alt="" />
-							<p>Abacateiro</p>
-						</li>
-						<li>
-							<img src="./assets/img/ervas/alcachofra.jpg" alt="" />
-							<p>Alcachofra</p>
-						</li>
-						<li>
-							<img src="./assets/img/ervas/alcacuz.jpg" alt="" />
-							<p>Alcacuz</p>
-						</li>
-						<li>
-							<img src="./assets/img/ervas/alecrim.jpg" alt="" />
-							<p>Alecrim</p>
-						</li>
-						<li>
-							<img src="./assets/img/ervas/alfafa.jpg" alt="" />
-							<p>Alfafa</p>
-						</li>
-
-						<li>
-							<img src="./assets/img/ervas/alfazema.jpg" alt="" />
-							<p>Alfazema</p>
-						</li>
-						<li>
-							<img src="./assets/img/ervas/boldo.jpg" alt="" />
-							<p>Boldo</p>
-						</li>
-						<li>
-							<img src="./assets/img/ervas/hibisco.jpg" alt="" />
-							<p>Hibisco</p>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="local" id="local">
-				<h2>Localização</h2>
-				<div class="container-section">
-					<div class="grid-local">
-						<div class="column left">
-							<h3>MediFlora</h3>
-							<h4>Rua das Amoras, 333</h4>
-							<img src="./assets/img/loja-1.jpg" alt="Loja 1" />
-							<img src="./assets/img/loja-2.jpg" alt="Loja 2" />
-						</div>
-						<div class="column right">
-							<p>Bem-vindo à MediFlora, uma joia escondida no coração da majestosa Floresta da Serenidade. Nossa loja mágica e encantadora está aninhada entre as árvores centenárias, onde os raios suaves do sol filtram-se através das folhas, criando uma dança de sombras e luz.</p>
-
-							<div class="map">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.774993117362!2d-41.988700723781115!3d-22.550100025222704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b233b1b367b7%3A0xaab8644ff3c2ff93!2sRua%20Das%20Amoras!5e0!3m2!1spt-BR!2sbr!4v1691614328011!5m2!1spt-BR!2sbr" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<h1 class="titulo">Benefícios dos Chás Naturais</h1>
+				</header>
+				<section class="beneficios" id="beneficios">
+					<form action="">
+						<h2>Quer saber mais sobre as propriedades e os benefícios dos chás naturais?</h2>
+						<button type="submit" value="cadastro" id="cadastro">Cadastre-se</button>
+					</form>
+					<div class="container-section">
+						<div class="lista-beneficios">
+							<div class="beneficio">
+								<img src="./assets/img/metabolismo.jpg" alt="" />
+								<p>Estímula o metabolismo</p>
+							</div>
+							<div class="beneficio">
+								<img src="./assets/img/saude-cardiovascular.jpg" alt="" />
+								<p>Promove a saúde cardiovascular</p>
+							</div>
+							<div class="beneficio">
+								<img src="./assets/img/efeito-relaxante.jpg" alt="" />
+								<p>Possuí efeito relaxante</p>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+				<section class="video" id="video">
+					<h2>Assim como os chás naturais nos brindam com sabores sutis que nos conectam à natureza, encontrar o prazer de viver está em saborear cada momento com a mesma delicadeza e gratidão.</h2>
+					<div class="container-section">
+						<video controls id="video-player">
+							<source src="./assets/video/chas.mp4" type="video/mp4" />
+							Seu navegador não suporta o elemento de vídeo.
+						</video>
+					</div>
+				</section>
+				<section class="ervas-medicinais" id="ervas">
+					<h2>Ervas Medicinais</h2>
+					<div class="container-section">
+						<ul>
+							<li>
+								<img src="./assets/img/ervas/abacateiro.jpg" alt="" />
+								<p>Abacateiro</p>
+							</li>
+							<li>
+								<img src="./assets/img/ervas/alcachofra.jpg" alt="" />
+								<p>Alcachofra</p>
+							</li>
+							<li>
+								<img src="./assets/img/ervas/alcacuz.jpg" alt="" />
+								<p>Alcacuz</p>
+							</li>
+							<li>
+								<img src="./assets/img/ervas/alecrim.jpg" alt="" />
+								<p>Alecrim</p>
+							</li>
+							<li>
+								<img src="./assets/img/ervas/alfafa.jpg" alt="" />
+								<p>Alfafa</p>
+							</li>
 
-			<section class="cadastro">
-				<h2>Cadastre-se abaixo para receber mais informações.</h2>
-				<div class="container-section">
-					<form action="">
-						<p>
-							Nome:
-							<input type="text" id="nome" />
-						</p>
-						<p>
-							Email:
-							<input type="text" id="email" />
-						</p>
-						<p>
-							Telefone:
-							<input type="number" id="telefone" />
-						</p>
-						<button type="submit" value="Enviar" id="enviar-cadastro">Enviar</button>
-					</form>
-				</div>
-			</section>
-			<footer class="footer">
-				<div class="container-section">
-					<p>Criado por Heloisa Felizardo</p>
-				</div>
-			</footer>
-			<script type="module" src="./assets/js/main.js"></script>
-		</main>
-	</body>
+							<li>
+								<img src="./assets/img/ervas/alfazema.jpg" alt="" />
+								<p>Alfazema</p>
+							</li>
+							<li>
+								<img src="./assets/img/ervas/boldo.jpg" alt="" />
+								<p>Boldo</p>
+							</li>
+							<li>
+								<img src="./assets/img/ervas/hibisco.jpg" alt="" />
+								<p>Hibisco</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="local" id="local">
+					<h2>Localização</h2>
+					<div class="container-section">
+						<div class="grid-local">
+							<div class="column left">
+								<h3>MediFlora</h3>
+								<h4>Rua das Amoras, 333</h4>
+								<img src="./assets/img/loja-1.jpg" alt="Loja 1" />
+								<img src="./assets/img/loja-2.jpg" alt="Loja 2" />
+							</div>
+							<div class="column right">
+								<p>Bem-vindo à MediFlora, uma joia escondida no coração da majestosa Floresta da Serenidade. Nossa loja mágica e encantadora está aninhada entre as árvores centenárias, onde os raios suaves do sol filtram-se através das folhas, criando uma dança de sombras e luz.</p>
+
+								<div class="map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.774993117362!2d-41.988700723781115!3d-22.550100025222704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b233b1b367b7%3A0xaab8644ff3c2ff93!2sRua%20Das%20Amoras!5e0!3m2!1spt-BR!2sbr!4v1691614328011!5m2!1spt-BR!2sbr" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="cadastro">
+					<h2>Cadastre-se abaixo para receber mais informações.</h2>
+					<div class="container-section">
+						<form action="">
+							<p>
+								Nome:
+								<input type="text" id="nome" />
+							</p>
+							<p>
+								Email:
+								<input type="text" id="email" />
+							</p>
+							<p>
+								Telefone:
+								<input type="number" id="telefone" />
+							</p>
+							<button type="submit" value="Enviar" id="enviar-cadastro">Enviar</button>
+						</form>
+					</div>
+				</section>
+				<footer class="footer">
+					<div class="container-section">
+						<p>Criado por Heloisa Felizardo</p>
+					</div>
+				</footer>
+				<script type="module" src="./assets/js/main.js"></script>
+			</main>
+		</body>
+	</html>
 </html>
