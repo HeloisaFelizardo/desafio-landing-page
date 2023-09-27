@@ -1,5 +1,5 @@
 .cadastro {
-	background-color: #c5e1a5;
+	background-color: var(--green-5);
 	padding-bottom: 29rem;
 }
 
@@ -38,21 +38,21 @@
 	margin-top: 1rem;
 	align-self: flex-end;
 	border-radius: 3px;
-	background-color: #dcedc8;
-	color: #1a1a1a;
+	background-color: var(--green-3);
+	color: var(--black-1);
 	border: none;
 	padding: 10px 20px;
 	text-transform: uppercase;
 	font-weight: 600;
 	cursor: pointer;
 	transition: 0.2s ease-in-out 0s;
-	border: 1px solid #404040;
+	border: 1px solid var(--grey-4);
 }
 
 .cadastro #enviar-cadastro:hover {
-	color: #f1f8e9;
-	background-color: #33691e;
-	border: 1px solid #404040;
+	color: var(--grey-3);
+	background-color: var(--green-4);
+	border: 1px solid var(--grey-4);
 }
 @media screen and (max-width: 1025px) {
 	.cadastro {

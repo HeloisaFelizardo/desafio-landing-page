@@ -8,6 +8,25 @@
 @import url('footer.css');
 @import url('burguer.css');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+	--green-1: #172c00;
+	--green-2: #8bc34a;
+	--green-3: #dcedc8;
+	--green-4: #33691e;
+	--green-5: #c5e1a5;
+	--grey-1: #f5f2f0;
+	--grey-2: #9c9c9c;
+	--grey-3: #f1f8e9;
+	--grey-4: #404040;
+	--grey-5: #dedede;
+	--black-1: #1a1a1a;
+	--black-2: #2e2e2e;
+	--green-alfa-1: rgba(220, 237, 200, 1);
+	--green-alfa-2: rgba(220, 237, 200, 0.5);
+	--green-alfa-3: rgba(23, 44, 0, 0.2);
+}
+
 * {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -17,7 +36,7 @@ html {
 }
 body {
 	font-family: 'Roboto', sans-serif;
-	color: #172c00;
+	color: var(--green-1);
 }
 .container {
 	margin: auto;
@@ -29,7 +48,7 @@ body {
 section {
 	width: 100%;
 	padding: 3rem 0;
-	border-bottom: 1px dotted #172c00;
+	border-bottom: 1px dotted var(--green-1);
 }
 .container-section {
 	padding: 0 10rem;
@@ -44,8 +63,8 @@ h1 {
 }
 h2 {
 	font-weight: 400;
-	border-top: 1px dotted #172c00;
-	border-bottom: 1px dotted #172c00;
+	border-top: 1px dotted var(--green-1);
+	border-bottom: 1px dotted var(--green-1);
 	font-size: 2rem;
 	text-align: center;
 	padding: 2rem;

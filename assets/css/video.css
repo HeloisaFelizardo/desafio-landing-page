@@ -1,5 +1,5 @@
 .video {
-	background: #f5f2f0;
+	background: var(--grey-1);
 }
 video {
 	margin: 3rem auto 0;
