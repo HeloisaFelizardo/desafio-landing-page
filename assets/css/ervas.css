@@ -1,37 +1,38 @@
 .ervas-medicinais {
 	background-color: var(--green-5);
 }
-
-.ervas-medicinais ul {
+.cards-container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 1rem;
 	padding: 2rem 0 0;
 }
-
-.ervas-medicinais li {
-	text-align: center;
-	margin-top: 1rem;
-	text-align: left;
-}
-.ervas-medicinais h3 {
-	margin: 10px 0px 5px;
-}
-.ervas-medicinais p {
-	margin-top: 0px;
-}
-
-.ervas-medicinais li img {
+.card {
+	background-color: var(--grey-1);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
 	width: 100%;
-	height: auto;
-	border-radius: 4px;
-	border: 1px solid var(--green-2);
-	object-fit: cover;
+	display: flex;
+	flex-direction: column;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card img {
+	width: 100%;
+	height: 100%;
+}
+.description {
+	padding: 2px 16px;
+}
+@media screen and (max-width: 1025px) {
+	.cards-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
-@media screen and (max-width: 1025px) {
-	.ervas-medicinais ul {
-		grid-template-columns: repeat(2, 1fr);
-		padding: 1rem;
+@media screen and (max-width: 320px) {
+	.cards-container {
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
