@@ -13,6 +13,7 @@
 	margin-top: 15rem;
 	font-weight: 400;
 }
+
 .top {
 	position: fixed;
 	width: 100%;
@@ -23,23 +24,42 @@
 	transition: background-color 1s ease;
 	z-index: 1;
 }
+
 .top.active {
 	background: var(--green-2);
 	box-shadow: 0px 0px 2px 2px var(--green-alfa-3);
 	transition: background-color 0.1s ease, box-shadow 0.1s ease;
 }
+
 .logo {
 	margin-left: 1rem;
 }
+
 .menu {
 	display: flex;
 	margin-right: 1rem;
+	position: absolute;
+	top: 4.5rem;
+	right: 0;
+	background-color: var(--green-2);
+	transition: max-height 0.3s ease-in-out;
+	max-height: 0;
+	overflow: hidden;
+}
+
+.menu.show {
+	display: flex;
+	max-height: 500px;
 }
 
 .menu ul {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
+}
+
+.menu ul li {
+	width: 100%;
 }
 
 .menu ul li a {
@@ -49,37 +69,19 @@
 	font-weight: 600;
 	display: block;
 }
+
 .menu ul li a:hover {
 	border-bottom: 5px solid var(--green-4);
 	color: var(--green-4);
 	background: var(--green-alfa-1);
 }
+
 .menu ul li a.show {
 	border-bottom: 5px solid var(--green-4);
 	color: var(--green-4);
 	background: var(--green-alfa-1);
 }
-@media screen and (max-width: 1025px) {
-	.menu {
-		position: absolute;
-		top: 4.5rem;
-		right: 1rem;
-		background-color: var(--green-2);
-		transition: max-height 0.3s ease-in-out;
-		max-height: 0;
-		overflow: hidden;
-	}
-	.menu.show {
-		display: flex;
-		max-height: 500px;
-	}
-	.menu ul {
-		flex-direction: column;
-	}
-	.menu ul li {
-		width: 100%;
-	}
-}
+
 @media screen and (max-width: 1025px) {
 	.logo {
 		margin-top: 1rem;

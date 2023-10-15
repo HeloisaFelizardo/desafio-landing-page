@@ -62,7 +62,7 @@ export function menuBurger() {
 	// Função para lidar com a alteração de tamanho da tela
 	function handleResize() {
 		const larguraDaTela = window.innerWidth;
-		menuBurguer.classList.toggle('show', larguraDaTela <= 1025);
+		menuBurguer.classList.toggle('show', larguraDaTela >= 200);
 	}
 
 	// Adiciona um ouvinte de evento para o redimensionamento da janela
