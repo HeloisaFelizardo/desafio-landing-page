@@ -71,7 +71,7 @@
 }
 
 .menu ul li a:hover {
-	border-bottom: 5px solid var(--green-4);
+	border-bottom: 1px solid var(--green-4);
 	color: var(--green-4);
 	background: var(--green-alfa-1);
 }
