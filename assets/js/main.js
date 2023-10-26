@@ -5,4 +5,4 @@ import { playVideo } from './video.js';
 menuPrincipal();
 menuBurger();
 cadastro();
-playVideo();
+//playVideo();
