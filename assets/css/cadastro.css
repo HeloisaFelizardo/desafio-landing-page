@@ -34,7 +34,7 @@
 	margin-left: 1rem;
 }
 
-.cadastro #enviar-cadastro {
+.cadastro #enviar {
 	margin-top: 1rem;
 	align-self: flex-end;
 	border-radius: 3px;
@@ -49,11 +49,12 @@
 	border: 1px solid var(--grey-4);
 }
 
-.cadastro #enviar-cadastro:hover {
+.cadastro #enviar:hover {
 	color: var(--grey-3);
 	background-color: var(--green-4);
 	border: 1px solid var(--grey-4);
 }
+
 @media screen and (max-width: 1025px) {
 	.cadastro {
 		padding-bottom: 5rem;
