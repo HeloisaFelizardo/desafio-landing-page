@@ -1,5 +1,7 @@
 import { Snackbar } from './snackbar.js';
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js';
+import { getFirestore, collection, addDoc, doc, setDoc } from 'https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js';
+
 const snackbar = new Snackbar();
 
 const firebaseConfig = {
@@ -12,32 +14,42 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const database = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
 const frm = document.querySelector('#frm');
 const button = document.querySelector('#enviar');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const messageInput = document.querySelector('#message');
 
-frm.addEventListener('submit', (e) => {
+frm.addEventListener('submit', async (e) => {
 	e.preventDefault();
 	console.log(e);
-	save();
+
+	// Pega os valores dos campos do formulário
+	const name = nameInput.value;
+	const email = emailInput.value;
+	const message = messageInput.value;
+
+	// Salva os dados no Firebase
+	await save(name, email, message);
+
+	// Remove o evento de clique do botão após o envio
+	button.removeEventListener('click', save);
+
+	// Limpa os campos do formulário
+	nameInput.value = '';
+	emailInput.value = '';
+	messageInput.value = '';
 });
 
-function save() {
-	const name = document.querySelector('#name').value;
-	const email = document.querySelector('#email').value;
-	const message = document.querySelector('#message').value;
-
-	database.ref('users/' + name).set({
+async function save(name, email, message) {
+	await addDoc(collection(db, 'users'), {
 		name: name,
 		email: email,
 		message: message,
 	});
+
 	snackbar.show('Dados salvos com sucesso!');
-	console.log('teste snackbar');
-	/* 
-	setTimeout(() => {
-		button.removeEventListener('click');
-		console.log('teste');
-	}, 1500); */
 }
