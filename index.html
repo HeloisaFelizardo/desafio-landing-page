@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!DOCTYPE html>
-<html lang="pt-br">
 
 <head>
 	<meta charset="UTF-8" />
@@ -204,18 +202,19 @@
 		<section class="cadastro">
 			<h2>Cadastre-se abaixo para receber mais informações.</h2>
 			<div class="container-section">
-				<form action="">
+				<form id="frm">
 					<p>
 						Nome:
-						<input type="text" id="nome" />
+						<input placeholder="Nome" type="name" id="name" required autofocus />
 					</p>
 					<p>
 						Email:
-						<input type="text" id="email" />
+						<input placeholder="email@email.com" type="email" id="email" required autofocus />
 					</p>
 					<p>
-						Telefone:
-						<input type="number" id="telefone" />
+						Mensagem:
+						<textarea name="mensagem" placeholder="Deixe seu pedido, sugestão ou mensagem..." id="message"
+							cols="30" rows="10" autofocus></textarea>
 					</p>
 					<button type="submit" value="Enviar" id="enviar">Enviar</button>
 				</form>
@@ -226,10 +225,11 @@
 				<p>Criado por Heloisa Felizardo</p>
 			</div>
 		</footer>
-		<script type="module" src="./assets/js/main.js"></script>
-	</main>
-</body>
 
-</html>
+	</main>
+	<script type="module" src="./assets/js/form-cadastro.js"></script>
+	<script type="module" src="./assets/js/main.js"></script>
+	<script type="module" src="./assets/js/snackbar.js"></script>
+</body>
 
 </html>
