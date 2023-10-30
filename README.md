@@ -2,20 +2,25 @@
 
 ## Trilha 1
 
-Desafio para validar o nível de conhecimento das pessoas participantes que já têm experiência na área de desenvolvimento web e que poderiam avançar para a Trilha 2.
+- Logotipo
+- Menu
+- Título destacado sobre o assunto do site com imagem do fundo
+- Trecho de texto com plano de fundo colorido
+- Botão com link interno ou externo
+- Imagens com descrições
+- Vídeo
+- Mapa de localização
+- Formulário para coletar cadastro
+- Rodapé com a frase criado por seunome
 
 ## Trilha 2
 
-1. SEO
-
-   a. Descrever o público alvo
-
-   b. Adicionar duas head tail keywords e duas long tail keywords (no mínimo, podem ser mais)
-
-2. Git e Github
-
-   a. Enviar link do projeto no Github.
-
-3. Cards
-4. Menu Drop Down
-5. Flex Box
+- Usado metatags e tags semânticas
+- Feito menu dropdown ou sidebar
+- Usado pelo menos um card
+- Utilizado botões de link interno ou externo com efeitos (transições ou animações)
+- Adicionado imagens com carrossel
+- Usado grid e flexbox para posicionamento dos elementos do site
+- Usado um iframe
+- Deixado o site responsivo (usando media queries)
+- Usado o JavaScript para deixar o site interativo (envio de mensagens, execução de alguma tarefa etc.)
