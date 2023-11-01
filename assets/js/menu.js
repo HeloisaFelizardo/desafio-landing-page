@@ -20,8 +20,6 @@ export function menuPrincipal() {
 				top: targetOffsetTop,
 				behavior: 'smooth',
 			});
-
-			top.classList.add('active');
 		});
 	});
 }

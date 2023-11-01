@@ -68,10 +68,6 @@ h3 {
 	font-family: 'Libre Baskerville', serif;
 }
 
-h1 {
-	font-size: 4rem;
-}
-
 h2 {
 	font-weight: 400;
 	border-top: 1px dotted var(--green-1);
@@ -90,24 +86,9 @@ a {
 	text-decoration: none;
 }
 
-/* .container {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-	gap: 0px 0px;
-	grid-auto-flow: row;
-	grid-template-areas:
-		'. . .'
-		'. . .';
-}
- */
 @media screen and (max-width: 1025px) {
 	.container-section {
 		padding: 0 1rem;
-	}
-
-	h1 {
-		font-size: 3rem;
 	}
 
 	h2 {
