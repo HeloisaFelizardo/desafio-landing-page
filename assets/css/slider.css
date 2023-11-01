@@ -1,0 +1,186 @@
+.slide-css {
+    width: 100%;
+    height: 300px;
+    float: left;
+    position: sticky;
+    overflow: hidden;
+}
+
+.sr-only {
+    position: absolute;
+    pointer-events: none;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    color: transparent;
+}
+
+.input-slide {
+
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+.label-slide {
+
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: solid 2px #ffffff;
+    border-radius: 999px;
+    background-color: transparent;
+    margin: 260px 5px 5px 5px;
+    z-index: 2;
+    cursor: pointer;
+    transition-duration: .4s;
+    box-shadow: 0 0 20px 0 #000;
+    left: 25%;
+    position: relative;
+
+}
+
+.input-slide:checked+.label-slide {
+    background-color: var(--green-1);
+}
+
+
+.input-slide:focus+.label-slide {
+    box-shadow: 0 0 0 2px var(--green-1), 0 0 18px #ffffff;
+}
+
+.slide {
+
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-100%);
+    transition-duration: .6s;
+    opacity: 1;
+
+}
+
+.input-slide:checked~.slide {
+    transform: translateX(100%);
+}
+
+.input-slide:checked+.label-slide+.slide {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.background-1 {
+    background-image: url(../img/ervas/abacateiro.jpg);
+    background-size: cover;
+}
+
+.background-2 {
+    background-image: url(../img/ervas/alcachofra.jpg);
+    background-size: cover;
+}
+
+.background-3 {
+    background-image: url(../img/ervas/alcacuz.jpg);
+    background-size: cover;
+}
+
+.background-4 {
+    background-image: url(../img/ervas/alecrim.jpg);
+    background-size: cover;
+}
+
+.background-5 {
+    background-image: url(../img/ervas/alfafa.jpg);
+    background-size: cover;
+}
+
+
+/*480PX BREAKPOINT*/
+@media (min-width:30em) {
+
+    .label-slide {
+
+
+        left: 39%;
+
+    }
+
+}
+
+/*600PX BREAKPOINT*/
+@media (min-width:37em) {
+
+    .label-slide {
+
+
+        left: 43%;
+
+    }
+
+}
+
+/*768PX BREAKPOINT*/
+@media (min-width:48em) {
+
+    .label-slide {
+
+
+        left: 43%;
+
+    }
+
+}
+
+/*960PX BREAKPOINT*/
+@media (min-width:60em) {
+
+    .label-slide {
+
+
+        left: 46%;
+
+    }
+
+}
+
+/*1280PX BREAKPOINT*/
+@media (min-width:80em) {
+
+    .label-slide {
+
+
+        left: 47%;
+
+    }
+
+}
+
+/*1366PX BREAKPOINT*/
+@media (min-width:85em) {
+
+    .label-slide {
+
+
+        left: 47%;
+
+    }
+
+}
+
+/*1920PX BREAKPOINT*/
+@media (min-width:120em) {
+
+    .label-slide {
+
+
+        left: 49%;
+
+    }
+}
