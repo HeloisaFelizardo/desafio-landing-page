@@ -23,13 +23,16 @@
 	justify-content: space-between;
 	transition: background-color 1s ease;
 	z-index: 1;
-}
-
-.top.active {
 	background: var(--green-2);
 	box-shadow: 0px 0px 2px 2px var(--green-alfa-3);
 	transition: background-color 0.1s ease, box-shadow 0.1s ease;
 }
+
+/* .top.active {
+	background: var(--green-2);
+	box-shadow: 0px 0px 2px 2px var(--green-alfa-3);
+	transition: background-color 0.1s ease, box-shadow 0.1s ease;
+} */
 
 .logo {
 	margin-left: 1rem;
