@@ -36,7 +36,7 @@
     cursor: pointer;
     transition-duration: .4s;
     box-shadow: 0 0 20px 0 #000;
-    left: 25%;
+    left: 10%;
     position: relative;
 
 }
@@ -101,15 +101,43 @@
     background-size: cover;
 }
 
+.background-6 {
+    background-image: url(../img/ervas/alfazema.jpg);
+    background-size: cover;
+}
+
+.background-7 {
+    background-image: url(../img/ervas/boldo.jpg);
+    background-size: cover;
+}
+
+.background-8 {
+    background-image: url(../img/ervas/hibisco.jpg);
+    background-size: cover;
+}
+
 
 /*480PX BREAKPOINT*/
+@media (min-width:20em) {
+
+    .label-slide {
+        left: 15%;
+    }
+
+}
+
+@media (min-width:25em) {
+
+    .label-slide {
+        left: 23%;
+    }
+
+}
+
 @media (min-width:30em) {
 
     .label-slide {
-
-
-        left: 39%;
-
+        left: 30%;
     }
 
 }
@@ -118,10 +146,7 @@
 @media (min-width:37em) {
 
     .label-slide {
-
-
-        left: 43%;
-
+        left: 33%;
     }
 
 }
@@ -130,10 +155,7 @@
 @media (min-width:48em) {
 
     .label-slide {
-
-
-        left: 43%;
-
+        left: 33%;
     }
 
 }
@@ -142,10 +164,7 @@
 @media (min-width:60em) {
 
     .label-slide {
-
-
-        left: 46%;
-
+        left: 40%;
     }
 
 }
@@ -154,10 +173,7 @@
 @media (min-width:80em) {
 
     .label-slide {
-
-
-        left: 47%;
-
+        left: 40%;
     }
 
 }
@@ -166,10 +182,7 @@
 @media (min-width:85em) {
 
     .label-slide {
-
-
-        left: 47%;
-
+        left: 40%;
     }
 
 }
@@ -178,9 +191,6 @@
 @media (min-width:120em) {
 
     .label-slide {
-
-
-        left: 49%;
-
+        left: 40%;
     }
 }
