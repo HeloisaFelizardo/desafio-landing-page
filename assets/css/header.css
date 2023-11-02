@@ -21,7 +21,7 @@
 	max-width: 1530px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: space-between;
 	z-index: 1;
 	background: var(--green-2);
 	box-shadow: 0px 0px 2px 2px var(--green-alfa-3);
@@ -30,14 +30,14 @@
 }
 
 .logo {
-	margin: 0.5rem 0 0 2rem;
+	margin: 0.5rem 0 0 0.5rem;
 }
 
 .menu {
 	display: flex;
 	position: absolute;
 	top: 66px;
-	left: 0;
+	right: 0;
 	background-color: var(--green-2);
 	transition: max-height 0.3s ease-in-out;
 	max-height: 0;
