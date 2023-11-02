@@ -42,12 +42,12 @@
 }
 
 .input-slide:checked+.label-slide {
-    background-color: var(--green-1);
+    background-color: var(--green-2);
 }
 
 
 .input-slide:focus+.label-slide {
-    box-shadow: 0 0 0 2px var(--green-1), 0 0 18px #ffffff;
+    box-shadow: 0 0 0 2px var(--green-2), 0 0 18px #ffffff;
 }
 
 .slide {
