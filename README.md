@@ -24,3 +24,24 @@
 - Usado um iframe
 - Deixado o site responsivo (usando media queries)
 - Usado o JavaScript para deixar o site interativo (envio de mensagens, execução de alguma tarefa etc.)
+
+## Vídeo de Apresentação do Site
+
+Tempo do vídeo: 10 minutos
+
+Tópicos da apresentação:
+
+1. Apresentação pessoal
+2. Apresentar os itens obrigatórios:
+
+   - Metatags e tags semânticas
+   - Menu dropdown ou sidebar
+   - Card
+   - Transições ou animações
+   - Carrossel
+   - Grid e flexbox
+   - Iframe
+   - Responsividade (media queries)
+   - Interatividade
+
+3. Compartilhar como foi para você incrementar o site e aprofundar os estudos na trilha 2
