@@ -18,7 +18,6 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 const frm = document.querySelector('#frm');
-const button = document.querySelector('#enviar');
 const nameInput = document.querySelector('#name');
 const emailInput = document.querySelector('#email');
 const messageInput = document.querySelector('#message');
